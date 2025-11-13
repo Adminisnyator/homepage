@@ -1,5 +1,6 @@
 # CV of Mia Evelyn Hallas
-![alt text](./imgs/mia.jpg)
+
+![Portrait Image of Mia](./imgs/mia.jpg)
 
 Languages:
 
