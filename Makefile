@@ -11,3 +11,6 @@
 debug:
 	source .venv/bin/activate && \
 	mkdocs serve --livereload
+
+.build:
+	mkdocs build
