@@ -1,10 +1,84 @@
 site_name: MeanderingMind
+
 nav:
   - Home: index.md
   - Curriculum Vitae: cv.md
-theme:
-  name: dracula
 
 plugins:
   - search:
       indexing: 'full'
+
+
+docs_dir: docs
+draft_docs: vault
+site_dir: site
+
+theme:
+  name: landing
+
+  favicon: "assets/images/favicon.png"
+  avatar: "assets/images/mia.jpg"
+
+  tagline: |
+    /[Meandering of a lost mind](http://ipa-reader.xyz/?text=lændɪŋ)/
+
+  page_source:
+    link: https://meanderingmind.me
+
+  socials:
+    - label: Email
+      link: mailto:mia@meanderingmind.me
+      icon: at
+    - label: GitHub
+      link: https://github.com/Adminisnyator
+      icon: [brands, github]
+    - label: Curriculum Vitae
+      link: https://meanderingmind.me/cv/
+      icon: home
+
+  toc_level: 0
+  header_layout:
+  - avatar
+  - title
+  -
+  - tagline
+  -
+  - socials
+  footer:
+
+  # background
+  avatar_size: 10rem
+  background_gradient_colors:
+  - color-mix(in srgb, var(--text) 10%, transparent)
+  - transparent
+  - color-mix(in srgb, var(--text) 10%, transparent)
+
+  # background_image: "https://teparsons.github.io/torillic/css/torillic/assets/torillic-bg.jpg"
+  content_box_opacity: 100%
+  content_box_padding: 12rem
+
+  # colours
+  primary_color: "#822000"
+  secondary_color: "#c9ad6a"
+  tertiary_color: "#822000"
+  # shades
+  base_color: "#fcf5e5"
+  mantle_color: "#e0e5c1"
+  crust_color: "#c9ad6a"
+  overlay_color: "#822000"
+  # text
+  text_color: "#000000"
+
+  # background-specific text
+  primary_text_color: var(--hltext)
+  secondary_text_color: var(--text)
+  tertiary_text_color: var(--text)
+  base_text_color: var(--text)
+  mantle_text_color: var(--text)
+  crust_text_color: var(--text)
+  overlay_text_color: var(--hltext)
+
+  # fonts
+  heading_font: Crimson Text
+  body_font: Alegreya
+  mono_font: Source Code Pro
