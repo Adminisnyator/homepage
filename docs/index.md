@@ -1,4 +1,3 @@
-# Welcome
-## to Mias HomePage
-If you are a recruiter, plase view my [CV](cv.md)
+# If you are a recruiter, plase view my [CV](cv.md)
+<!-- ![Portrait Image of Mia](assets/images/out.jpg) -->
 
