@@ -1,0 +1,10 @@
+site_name: MeanderingMind
+nav:
+  - Home: index.md
+  - Curriculum Vitae: cv.md
+theme:
+  name: dracula
+
+plugins:
+  - search:
+      indexing: 'full'
