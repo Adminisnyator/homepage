@@ -1,4 +1,5 @@
 site_name: MeanderingMind
+site_description: It's a Mia!
 site_url: https://meanderingmind.me/
 edit_url: https://github.com/Adminisnyator/homepage.git
 # Please push via ssh to git@github.com:Adminisnyator/homepage.git
@@ -85,3 +86,6 @@ theme:
   heading_font: Crimson Text
   body_font: Alegreya
   mono_font: Source Code Pro
+
+
+copyright: Copyright &copy; 2025 <a href="https://meanderingmind.me">Mia Evelyn Hallas</a>.
