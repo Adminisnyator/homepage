@@ -1,9 +1,10 @@
-# CV of Mia Evelyn Hallas
-
-Languages:
-
+## Languages:
 - German -> Native
 - Englisch -> Near Native
+- Python -> B2
+
+## Skills:
+
 
 ## Work Experience
 - 10/25 - present Custom Homepage for a team of doctors @ [InternistenTulln](https://internisten-tulln.at)

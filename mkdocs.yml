@@ -1,4 +1,7 @@
 site_name: MeanderingMind
+site_url: https://meanderingmind.me/
+edit_url: https://github.com/Adminisnyator/homepage.git
+# Please push via ssh to git@github.com:Adminisnyator/homepage.git
 
 nav:
   - Home: index.md
@@ -11,12 +14,12 @@ plugins:
 
 docs_dir: docs
 draft_docs: vault
-site_dir: site
+site_dir: ../site
 
 theme:
   name: landing
 
-  favicon: "assets/images/favicon.png"
+  favicon: "assets/images/favicon.svg"
   avatar: "assets/images/mia.jpg"
 
   tagline: |
@@ -27,7 +30,7 @@ theme:
 
   socials:
     - label: Email
-      link: mailto:mia@meanderingmind.me
+      link: mailto:mia.hallas@meanderingmind.me
       icon: at
     - label: GitHub
       link: https://github.com/Adminisnyator
@@ -44,18 +47,18 @@ theme:
   - tagline
   -
   - socials
-  footer:
+  footer: "Made with mkdocs <3"
 
   # background
   avatar_size: 10rem
-  background_gradient_colors:
-  - color-mix(in srgb, var(--text) 10%, transparent)
-  - transparent
-  - color-mix(in srgb, var(--text) 10%, transparent)
+  # background_gradient_colors:
+  # - color-mix(in srgb, var(--text) 60%, transparent)
+  # - transparent
+  # - color-mix(in srgb, var(--text) 60%, transparent)
 
-  # background_image: "https://teparsons.github.io/torillic/css/torillic/assets/torillic-bg.jpg"
-  content_box_opacity: 100%
-  content_box_padding: 12rem
+  background_image: "assets/images/bg.png"
+  content_box_opacity: 98%
+  content_box_padding: 14rem
 
   # colours
   primary_color: "#822000"

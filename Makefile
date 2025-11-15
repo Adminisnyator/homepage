@@ -12,5 +12,8 @@ debug:
 	source .venv/bin/activate && \
 	mkdocs serve --livereload
 
-.build:
-	mkdocs build
+build:
+	mkdocs build && \
+	sudo chown -R 911:1000 ../site/ && \
+	rsync -avzzpP --delete ../site/ root@meanderingmind.me:/srv/nginx/config/www/meanderingmind/ && \
+	sudo rm -rfv ../site/
