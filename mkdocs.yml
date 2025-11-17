@@ -11,11 +11,15 @@ nav:
 plugins:
   - search:
       indexing: 'full'
-
+  - gen-files:
+      scripts:
+        - src/gen_pages.py
 
 docs_dir: docs
 draft_docs: vault
 site_dir: ../site
+exclude_docs: |
+  !.well-known
 
 theme:
   name: landing
