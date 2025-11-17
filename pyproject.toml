@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "mkdocs>=1.6.1",
+    "mkdocs-gen-files>=0.5.0",
     "mkdocs-landing>=0.0.8",
     "mkdocs-pdf-export-plugin>=0.5.10",
 ]

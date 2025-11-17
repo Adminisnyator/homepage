@@ -14,6 +14,7 @@ debug:
 
 build:
 	mkdocs build && \
+	tree ../site/ && \
 	sudo chown -R 911:1000 ../site/ && \
 	rsync -avzzpP --delete ../site/ root@meanderingmind.me:/srv/nginx/config/www/meanderingmind/ && \
 	sudo rm -rfv ../site/
